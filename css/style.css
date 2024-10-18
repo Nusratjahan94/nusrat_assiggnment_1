@@ -1,3 +1,49 @@
-h1 {
-    font-size: 10em;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divider-1{
+    background-color:rgb(83, 23, 248);
+    display:flex;
+    flex-direction:row;
+    height:15vh;
+    align-items:center;
+    
+}
+
+.divider-2{
+    background-color:rgb(83, 23, 248);
+    display: flex;
+    flex-direction: row;
+    height: 100%; 
+    align-items:center;
+    justify-content: space-evenly;
+
+
+}
+
+
+input[type ="button"]{
+    background:linear-gradient( to right,orange, rgb(236, 144, 83)); 
+    color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 16px ;
+    font-weight: bold;
+    border: 0px;
+    margin: 20px;
+    
+    
+    
+}
+.image{
+    width: 360px; 
+    font-size: medium;
+    margin-left: 40px;
+}
+p{
+    color:rgb(180, 180, 247);;
+    margin-left: 30px;
+    
 }
